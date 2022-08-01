@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import Book from "./Componenets/Book";
+// import Testing from "./Componenets/services/Testing";
+// import Dynamic from "./Componenets/services/Dynamic";
+// import Show_Hide from "./Componenets/Project/Show_Hide";
+// import ControlledInput from "./Componenets/Project/ControlledInput";
+// import BasicRefs from "./Componenets/Project/BasicRefs";
+import Reducer from "./Componenets/Project/Reducer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Reducer />
     </div>
   );
 }
