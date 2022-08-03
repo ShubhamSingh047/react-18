@@ -5,12 +5,13 @@ import "./App.css";
 // import Show_Hide from "./Componenets/Project/Show_Hide";
 // import ControlledInput from "./Componenets/Project/ControlledInput";
 // import BasicRefs from "./Componenets/Project/BasicRefs";
-import Reducer from "./Componenets/Project/Reducer";
+// import Reducer from "./Componenets/Project/Reducer";
+import PropDrilling from "./Componenets/folders/propDrilling";
 
 function App() {
   return (
     <div>
-      <Reducer />
+      <PropDrilling />
     </div>
   );
 }
