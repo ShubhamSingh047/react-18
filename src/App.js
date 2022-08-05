@@ -6,12 +6,13 @@ import "./App.css";
 // import ControlledInput from "./Componenets/Project/ControlledInput";
 // import BasicRefs from "./Componenets/Project/BasicRefs";
 // import Reducer from "./Componenets/Project/Reducer";
-import PropDrilling from "./Componenets/folders/propDrilling";
+// import PropDrilling from "./Componenets/folders/propDrilling";
+import CustomeHooks from "./Componenets/folders/CustomeHooks";
 
 function App() {
   return (
     <div>
-      <PropDrilling />
+      <CustomeHooks />
     </div>
   );
 }

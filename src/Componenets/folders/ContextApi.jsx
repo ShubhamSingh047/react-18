@@ -1,9 +1,16 @@
-import {useState, useContext} from "react"
+import { useState, useContext } from "react";
+import SetUp from "./SetUp";
 
-const PersonContext =  React.createContext();
+const PersonContext = React.createContext();
+
+
 
 const ContextApi = () => {
-  return <div>ContextApi</div>;
+  return (
+    <div>
+      <SetUp />
+    </div>
+  );
 };
 
 export default ContextApi;
