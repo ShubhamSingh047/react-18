@@ -3,8 +3,6 @@ import SetUp from "./SetUp";
 
 const PersonContext = React.createContext();
 
-
-
 const ContextApi = () => {
   return (
     <div>
